@@ -14,4 +14,7 @@ variable "name" {
   description = "Function name"
 }
 
-
+variable "az" {
+  type        = string
+  description = "availability_zones" 
+}
